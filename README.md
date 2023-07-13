@@ -17,6 +17,10 @@ Problem Statement : Book one way outstation cab and display the lowest charges
 (Suggested Site: makemytrip.com however  you are free to choose any other legitimate site)
 Key Automation Scope
 
+## Modification in Requirement 
+ 
+- Due to unavailability of the element Group Gifting in Gift Cards page ,so the requirement changed to Wedding Gift card ( Find Wedding gift card, fill card details and gift and give invalid email; capture and display the error message ).
+
 ## Tech Stack
 
 - **Java** 
@@ -33,10 +37,9 @@ Key Automation Scope
 - **Extent Report**
 - **Logs** 
 
-## Modification in Requirement 
- 
-- Due to unavailability of the element Group Gifting in Gift Cards page ,so the requirement changed to Wedding Gift card ( Find Wedding gift card, fill card details and gift and give invalid email; capture and display the error message ).
+## Author
 
+- [Diptesh Chaudhari](https://github.com/Diptesh15)
 
 
 
