@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-HackathonSuite" class="navigator-link">
-              <span class="suite-name border-failed">HackathonSuite</span>
+              <span class="suite-name border-passed">HackathonSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-HackathonSuite" class="hide-methods failed suite-HackathonSuite"> (hide)</a> <!-- hide-methods failed suite-HackathonSuite -->
-                      <a href="#" panel-name="suite-HackathonSuite" class="show-methods failed suite-HackathonSuite"> (show)</a> <!-- show-methods failed suite-HackathonSuite -->
-                    </span>
-                    <div class="method-list-content failed suite-HackathonSuite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-HackathonSuite" title="testCases.TC_002_GiftCardTestClass" class="method navigator-link" hash-for-method="test_invalid_email">test_invalid_email</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-HackathonSuite -->
+                    <span class="method-stats">8 methods,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -137,6 +123,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HackathonSuite" title="testCases.TC_002_GiftCardTestClass" class="method navigator-link" hash-for-method="test_invalid_email">test_invalid_email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-HackathonSuite" title="testCases.TC_001_CabPageTestClass" class="method navigator-link" hash-for-method="test_redirect_to_cabs">test_redirect_to_cabs</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -162,26 +153,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-HackathonSuite" class="panel HackathonSuite">
-          <div class="suite-HackathonSuite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testCases.TC_002_GiftCardTestClass</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_invalid_email">
-                  </a> <!-- test_invalid_email -->
-                  <span class="method-name">test_invalid_email</span>
-                  <div class="stack-trace">java.lang.AssertionError: Please enter a valid Email id. expected [true] but found [false]
-	at testCases.TC_002_GiftCardTestClass.test_invalid_email(TC_002_GiftCardTestClass.java:104)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-HackathonSuite-class-failed -->
           <div class="suite-HackathonSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -214,21 +185,6 @@
           <div class="suite-HackathonSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.TC_003_HotelPageTestClass</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_hotel_page_functionality">
-                  </a> <!-- test_hotel_page_functionality -->
-                  <span class="method-name">test_hotel_page_functionality</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-HackathonSuite-class-passed -->
-          <div class="suite-HackathonSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">testCases.TC_002_GiftCardTestClass</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -237,6 +193,13 @@
                   <a name="test_gift_card_page">
                   </a> <!-- test_gift_card_page -->
                   <span class="method-name">test_gift_card_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_invalid_email">
+                  </a> <!-- test_invalid_email -->
+                  <span class="method-name">test_invalid_email</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -251,6 +214,21 @@
                   <a name="test_select_gift_card">
                   </a> <!-- test_select_gift_card -->
                   <span class="method-name">test_select_gift_card</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HackathonSuite-class-passed -->
+          <div class="suite-HackathonSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_003_HotelPageTestClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_hotel_page_functionality">
+                  </a> <!-- test_hotel_page_functionality -->
+                  <span class="method-name">test_hotel_page_functionality</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -369,35 +347,35 @@ data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test_cab_data_fill')
 data.setCell(0, 2, 'testCases.TC_001_CabPageTestClass')
-data.setCell(0, 3, 22464);
+data.setCell(0, 3, 22894);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'test_hotel_page_functionality')
 data.setCell(1, 2, 'testCases.TC_003_HotelPageTestClass')
-data.setCell(1, 3, 12204);
+data.setCell(1, 3, 11327);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'test_car_type_suv')
+data.setCell(2, 1, 'test_redirect_to_cabs')
 data.setCell(2, 2, 'testCases.TC_001_CabPageTestClass')
-data.setCell(2, 3, 7888);
+data.setCell(2, 3, 7276);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'test_redirect_to_cabs')
+data.setCell(3, 1, 'test_car_type_suv')
 data.setCell(3, 2, 'testCases.TC_001_CabPageTestClass')
-data.setCell(3, 3, 7138);
+data.setCell(3, 3, 6851);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'test_gift_card_page')
 data.setCell(4, 2, 'testCases.TC_002_GiftCardTestClass')
-data.setCell(4, 3, 6778);
+data.setCell(4, 3, 6832);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'test_invalid_email')
 data.setCell(5, 2, 'testCases.TC_002_GiftCardTestClass')
-data.setCell(5, 3, 6126);
+data.setCell(5, 3, 5668);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'test_select_gift_card')
 data.setCell(6, 2, 'testCases.TC_002_GiftCardTestClass')
-data.setCell(6, 3, 4250);
+data.setCell(6, 3, 5227);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'test_remove_category')
 data.setCell(7, 2, 'testCases.TC_002_GiftCardTestClass')
-data.setCell(7, 3, 374);
+data.setCell(7, 3, 423);
 window.suiteTableData['HackathonSuite']= { tableData: data, tableDiv: 'times-div-HackathonSuite'}
 return data;
 }
@@ -435,63 +413,61 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_redirect_to_cabs</span>
-                <span class="method-start">18029 ms</span>
+                <span class="method-start">22680 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_cab_data_fill</span>
-                <span class="method-start">25220 ms</span>
+                <span class="method-start">30029 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_car_type_suv</span>
-                <span class="method-start">47688 ms</span>
+                <span class="method-start">52929 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">55582 ms</span>
+                <span class="method-start">59784 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_002_GiftCardTestClass</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">57043 ms</span>
+                <span class="method-start">61297 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_gift_card_page</span>
-                <span class="method-start">70503 ms</span>
+                <span class="method-start">76417 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_remove_category</span>
-                <span class="method-start">77285 ms</span>
+                <span class="method-start">83252 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_select_gift_card</span>
-                <span class="method-start">77662 ms</span>
+                <span class="method-start">83678 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">test_invalid_email</span>
-                <span class="method-start">81915 ms</span>
+                <span class="method-start">88908 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">88429 ms</span>
+                <span class="method-start">94577 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_003_HotelPageTestClass</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">89929 ms</span>
+                <span class="method-start">96103 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_hotel_page_functionality</span>
-                <span class="method-start">100508 ms</span>
+                <span class="method-start">109718 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">112713 ms</span>
+                <span class="method-start">121046 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
