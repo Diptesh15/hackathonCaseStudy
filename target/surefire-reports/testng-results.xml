@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-13T12:10:48 IST" name="HackathonSuite" finished-at="2023-07-13T12:12:52 IST" duration-ms="123952">
+  <suite started-at="2023-07-13T13:26:44 IST" name="HackathonSuite" finished-at="2023-07-13T13:29:05 IST" duration-ms="141182">
     <groups>
       <group name="Regression">
         <method signature="TC_001_CabPageTestClass.test_redirect_to_cabs()[pri:1, instance:testCases.TC_001_CabPageTestClass@34a3d150]" name="test_redirect_to_cabs" class="testCases.TC_001_CabPageTestClass"/>
@@ -20,9 +20,9 @@
         <method signature="TC_002_GiftCardTestClass.test_gift_card_page()[pri:6, instance:testCases.TC_002_GiftCardTestClass@368f2016]" name="test_gift_card_page" class="testCases.TC_002_GiftCardTestClass"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-07-13T12:10:48 IST" name="HackathonTest" finished-at="2023-07-13T12:12:52 IST" duration-ms="123952">
+    <test started-at="2023-07-13T13:26:44 IST" name="HackathonTest" finished-at="2023-07-13T13:29:05 IST" duration-ms="141182">
       <class name="testCases.TC_001_CabPageTestClass">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_CabPageTestClass@34a3d150]" started-at="2023-07-13T12:10:49 IST" name="setup" finished-at="2023-07-13T12:11:12 IST" duration-ms="22594" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_CabPageTestClass@34a3d150]" started-at="2023-07-13T13:26:45 IST" name="setup" finished-at="2023-07-13T13:27:14 IST" duration-ms="29152" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,25 +33,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_redirect_to_cabs()[pri:1, instance:testCases.TC_001_CabPageTestClass@34a3d150]" started-at="2023-07-13T12:11:12 IST" name="test_redirect_to_cabs" finished-at="2023-07-13T12:11:19 IST" duration-ms="7276" status="PASS">
+        <test-method signature="test_redirect_to_cabs()[pri:1, instance:testCases.TC_001_CabPageTestClass@34a3d150]" started-at="2023-07-13T13:27:14 IST" name="test_redirect_to_cabs" finished-at="2023-07-13T13:27:22 IST" duration-ms="7676" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_redirect_to_cabs -->
-        <test-method signature="test_cab_data_fill()[pri:2, instance:testCases.TC_001_CabPageTestClass@34a3d150]" started-at="2023-07-13T12:11:19 IST" name="test_cab_data_fill" finished-at="2023-07-13T12:11:42 IST" duration-ms="22894" status="PASS">
+        <test-method signature="test_cab_data_fill()[pri:2, instance:testCases.TC_001_CabPageTestClass@34a3d150]" started-at="2023-07-13T13:27:22 IST" name="test_cab_data_fill" finished-at="2023-07-13T13:27:55 IST" duration-ms="33163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_cab_data_fill -->
-        <test-method signature="test_car_type_suv()[pri:3, instance:testCases.TC_001_CabPageTestClass@34a3d150]" started-at="2023-07-13T12:11:42 IST" name="test_car_type_suv" finished-at="2023-07-13T12:11:49 IST" duration-ms="6851" status="PASS">
+        <test-method signature="test_car_type_suv()[pri:3, instance:testCases.TC_001_CabPageTestClass@34a3d150]" started-at="2023-07-13T13:27:55 IST" name="test_car_type_suv" finished-at="2023-07-13T13:28:03 IST" duration-ms="7785" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_car_type_suv -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_CabPageTestClass@34a3d150]" started-at="2023-07-13T12:11:49 IST" name="tearDown" finished-at="2023-07-13T12:11:51 IST" duration-ms="1512" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_CabPageTestClass@34a3d150]" started-at="2023-07-13T13:28:03 IST" name="tearDown" finished-at="2023-07-13T13:28:05 IST" duration-ms="2012" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_001_CabPageTestClass -->
       <class name="testCases.TC_003_HotelPageTestClass">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_003_HotelPageTestClass@4c583ecf]" started-at="2023-07-13T12:12:25 IST" name="setup" finished-at="2023-07-13T12:12:39 IST" duration-ms="13614" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_003_HotelPageTestClass@4c583ecf]" started-at="2023-07-13T13:28:39 IST" name="setup" finished-at="2023-07-13T13:28:52 IST" duration-ms="13625" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,17 +62,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_hotel_page_functionality()[pri:4, instance:testCases.TC_003_HotelPageTestClass@4c583ecf]" started-at="2023-07-13T12:12:39 IST" name="test_hotel_page_functionality" finished-at="2023-07-13T12:12:50 IST" duration-ms="11327" status="PASS">
+        <test-method signature="test_hotel_page_functionality()[pri:4, instance:testCases.TC_003_HotelPageTestClass@4c583ecf]" started-at="2023-07-13T13:28:52 IST" name="test_hotel_page_functionality" finished-at="2023-07-13T13:29:03 IST" duration-ms="11106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_hotel_page_functionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_HotelPageTestClass@4c583ecf]" started-at="2023-07-13T12:12:50 IST" name="tearDown" finished-at="2023-07-13T12:12:52 IST" duration-ms="1960" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_HotelPageTestClass@4c583ecf]" started-at="2023-07-13T13:29:03 IST" name="tearDown" finished-at="2023-07-13T13:29:05 IST" duration-ms="1653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_003_HotelPageTestClass -->
       <class name="testCases.TC_002_GiftCardTestClass">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_GiftCardTestClass@368f2016]" started-at="2023-07-13T12:11:51 IST" name="setup" finished-at="2023-07-13T12:12:06 IST" duration-ms="15118" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_GiftCardTestClass@368f2016]" started-at="2023-07-13T13:28:05 IST" name="setup" finished-at="2023-07-13T13:28:20 IST" duration-ms="15082" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,23 +83,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_gift_card_page()[pri:6, instance:testCases.TC_002_GiftCardTestClass@368f2016]" started-at="2023-07-13T12:12:06 IST" name="test_gift_card_page" finished-at="2023-07-13T12:12:13 IST" duration-ms="6832" status="PASS">
+        <test-method signature="test_gift_card_page()[pri:6, instance:testCases.TC_002_GiftCardTestClass@368f2016]" started-at="2023-07-13T13:28:20 IST" name="test_gift_card_page" finished-at="2023-07-13T13:28:27 IST" duration-ms="6480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_gift_card_page -->
-        <test-method signature="test_remove_category()[pri:7, instance:testCases.TC_002_GiftCardTestClass@368f2016]" started-at="2023-07-13T12:12:13 IST" name="test_remove_category" finished-at="2023-07-13T12:12:13 IST" duration-ms="423" status="PASS">
+        <test-method signature="test_remove_category()[pri:7, instance:testCases.TC_002_GiftCardTestClass@368f2016]" started-at="2023-07-13T13:28:27 IST" name="test_remove_category" finished-at="2023-07-13T13:28:27 IST" duration-ms="369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_remove_category -->
-        <test-method signature="test_select_gift_card()[pri:8, instance:testCases.TC_002_GiftCardTestClass@368f2016]" started-at="2023-07-13T12:12:13 IST" name="test_select_gift_card" finished-at="2023-07-13T12:12:18 IST" duration-ms="5227" status="PASS">
+        <test-method signature="test_select_gift_card()[pri:8, instance:testCases.TC_002_GiftCardTestClass@368f2016]" started-at="2023-07-13T13:28:27 IST" name="test_select_gift_card" finished-at="2023-07-13T13:28:32 IST" duration-ms="4690" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_select_gift_card -->
-        <test-method signature="test_invalid_email()[pri:9, instance:testCases.TC_002_GiftCardTestClass@368f2016]" started-at="2023-07-13T12:12:18 IST" name="test_invalid_email" finished-at="2023-07-13T12:12:24 IST" duration-ms="5668" status="PASS">
+        <test-method signature="test_invalid_email()[pri:9, instance:testCases.TC_002_GiftCardTestClass@368f2016]" started-at="2023-07-13T13:28:32 IST" name="test_invalid_email" finished-at="2023-07-13T13:28:37 IST" duration-ms="5621" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_invalid_email -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_GiftCardTestClass@368f2016]" started-at="2023-07-13T12:12:24 IST" name="tearDown" finished-at="2023-07-13T12:12:25 IST" duration-ms="1525" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_GiftCardTestClass@368f2016]" started-at="2023-07-13T13:28:37 IST" name="tearDown" finished-at="2023-07-13T13:28:39 IST" duration-ms="1442" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
