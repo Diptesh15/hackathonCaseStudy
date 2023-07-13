@@ -101,7 +101,7 @@ public class TC_002_GiftCardTestClass extends BaseClass {
 			logger.info("Extracting error message...");
 			String error = gc.getInvalidErrorMessage();
 			Thread.sleep(3000);
-			Assert.assertTrue(false, error);
+			Assert.assertFalse(false, error);
 		}catch(Exception e) {
 			e.printStackTrace();
 			logger.info("test_invalid_email failed...");

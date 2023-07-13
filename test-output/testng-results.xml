@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-03T10:43:37 IST" name="HackathonSuite" finished-at="2023-07-03T10:46:18 IST" duration-ms="161254">
+  <suite started-at="2023-07-13T10:22:45 IST" name="HackathonSuite" finished-at="2023-07-13T10:24:45 IST" duration-ms="119418">
     <groups>
       <group name="Regression">
         <method signature="TC_001_CabPageTestClass.test_cab_data_fill()[pri:2, instance:testCases.TC_001_CabPageTestClass@1a942c18]" name="test_cab_data_fill" class="testCases.TC_001_CabPageTestClass"/>
         <method signature="TC_001_CabPageTestClass.test_car_type_suv()[pri:3, instance:testCases.TC_001_CabPageTestClass@1a942c18]" name="test_car_type_suv" class="testCases.TC_001_CabPageTestClass"/>
         <method signature="TC_001_CabPageTestClass.test_redirect_to_cabs()[pri:1, instance:testCases.TC_001_CabPageTestClass@1a942c18]" name="test_redirect_to_cabs" class="testCases.TC_001_CabPageTestClass"/>
         <method signature="TC_002_GiftCardTestClass.test_gift_card_page()[pri:6, instance:testCases.TC_002_GiftCardTestClass@5ab956d7]" name="test_gift_card_page" class="testCases.TC_002_GiftCardTestClass"/>
-        <method signature="TC_002_GiftCardTestClass.test_give_invalid_email()[pri:9, instance:testCases.TC_002_GiftCardTestClass@5ab956d7]" name="test_give_invalid_email" class="testCases.TC_002_GiftCardTestClass"/>
+        <method signature="TC_002_GiftCardTestClass.test_invalid_email()[pri:9, instance:testCases.TC_002_GiftCardTestClass@5ab956d7]" name="test_invalid_email" class="testCases.TC_002_GiftCardTestClass"/>
         <method signature="TC_002_GiftCardTestClass.test_remove_category()[pri:7, instance:testCases.TC_002_GiftCardTestClass@5ab956d7]" name="test_remove_category" class="testCases.TC_002_GiftCardTestClass"/>
-        <method signature="TC_002_GiftCardTestClass.test_wedding_gift_card()[pri:8, instance:testCases.TC_002_GiftCardTestClass@5ab956d7]" name="test_wedding_gift_card" class="testCases.TC_002_GiftCardTestClass"/>
+        <method signature="TC_002_GiftCardTestClass.test_select_gift_card()[pri:8, instance:testCases.TC_002_GiftCardTestClass@5ab956d7]" name="test_select_gift_card" class="testCases.TC_002_GiftCardTestClass"/>
         <method signature="TC_003_HotelPageTestClass.test_hotel_page_functionality()[pri:4, instance:testCases.TC_003_HotelPageTestClass@3e27aa33]" name="test_hotel_page_functionality" class="testCases.TC_003_HotelPageTestClass"/>
       </group> <!-- Regression -->
       <group name="Smoke">
@@ -20,9 +20,9 @@
         <method signature="TC_003_HotelPageTestClass.test_hotel_page_functionality()[pri:4, instance:testCases.TC_003_HotelPageTestClass@3e27aa33]" name="test_hotel_page_functionality" class="testCases.TC_003_HotelPageTestClass"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-07-03T10:43:37 IST" name="HackathonTest" finished-at="2023-07-03T10:46:18 IST" duration-ms="161254">
+    <test started-at="2023-07-13T10:22:45 IST" name="HackathonTest" finished-at="2023-07-13T10:24:45 IST" duration-ms="119418">
       <class name="testCases.TC_001_CabPageTestClass">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_CabPageTestClass@1a942c18]" started-at="2023-07-03T10:43:37 IST" name="setup" finished-at="2023-07-03T10:43:57 IST" duration-ms="19543" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_CabPageTestClass@1a942c18]" started-at="2023-07-13T10:22:47 IST" name="setup" finished-at="2023-07-13T10:23:10 IST" duration-ms="23530" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,25 +33,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_redirect_to_cabs()[pri:1, instance:testCases.TC_001_CabPageTestClass@1a942c18]" started-at="2023-07-03T10:43:57 IST" name="test_redirect_to_cabs" finished-at="2023-07-03T10:44:04 IST" duration-ms="6795" status="PASS">
+        <test-method signature="test_redirect_to_cabs()[pri:1, instance:testCases.TC_001_CabPageTestClass@1a942c18]" started-at="2023-07-13T10:23:10 IST" name="test_redirect_to_cabs" finished-at="2023-07-13T10:23:17 IST" duration-ms="7221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_redirect_to_cabs -->
-        <test-method signature="test_cab_data_fill()[pri:2, instance:testCases.TC_001_CabPageTestClass@1a942c18]" started-at="2023-07-03T10:44:04 IST" name="test_cab_data_fill" finished-at="2023-07-03T10:44:24 IST" duration-ms="20342" status="PASS">
+        <test-method signature="test_cab_data_fill()[pri:2, instance:testCases.TC_001_CabPageTestClass@1a942c18]" started-at="2023-07-13T10:23:17 IST" name="test_cab_data_fill" finished-at="2023-07-13T10:23:39 IST" duration-ms="21612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_cab_data_fill -->
-        <test-method signature="test_car_type_suv()[pri:3, instance:testCases.TC_001_CabPageTestClass@1a942c18]" started-at="2023-07-03T10:44:24 IST" name="test_car_type_suv" finished-at="2023-07-03T10:44:31 IST" duration-ms="6548" status="PASS">
+        <test-method signature="test_car_type_suv()[pri:3, instance:testCases.TC_001_CabPageTestClass@1a942c18]" started-at="2023-07-13T10:23:39 IST" name="test_car_type_suv" finished-at="2023-07-13T10:23:48 IST" duration-ms="8461" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_car_type_suv -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_CabPageTestClass@1a942c18]" started-at="2023-07-03T10:44:31 IST" name="tearDown" finished-at="2023-07-03T10:44:34 IST" duration-ms="3285" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_CabPageTestClass@1a942c18]" started-at="2023-07-13T10:23:48 IST" name="tearDown" finished-at="2023-07-13T10:23:49 IST" duration-ms="1436" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_001_CabPageTestClass -->
       <class name="testCases.TC_003_HotelPageTestClass">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_003_HotelPageTestClass@3e27aa33]" started-at="2023-07-03T10:45:27 IST" name="setup" finished-at="2023-07-03T10:45:59 IST" duration-ms="31829" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_003_HotelPageTestClass@3e27aa33]" started-at="2023-07-13T10:24:20 IST" name="setup" finished-at="2023-07-13T10:24:32 IST" duration-ms="11630" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,17 +62,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_hotel_page_functionality()[pri:4, instance:testCases.TC_003_HotelPageTestClass@3e27aa33]" started-at="2023-07-03T10:45:59 IST" name="test_hotel_page_functionality" finished-at="2023-07-03T10:46:13 IST" duration-ms="13743" status="PASS">
+        <test-method signature="test_hotel_page_functionality()[pri:4, instance:testCases.TC_003_HotelPageTestClass@3e27aa33]" started-at="2023-07-13T10:24:32 IST" name="test_hotel_page_functionality" finished-at="2023-07-13T10:24:43 IST" duration-ms="11526" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_hotel_page_functionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_HotelPageTestClass@3e27aa33]" started-at="2023-07-03T10:46:13 IST" name="tearDown" finished-at="2023-07-03T10:46:18 IST" duration-ms="5437" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_HotelPageTestClass@3e27aa33]" started-at="2023-07-13T10:24:43 IST" name="tearDown" finished-at="2023-07-13T10:24:45 IST" duration-ms="1532" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_003_HotelPageTestClass -->
       <class name="testCases.TC_002_GiftCardTestClass">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_GiftCardTestClass@5ab956d7]" started-at="2023-07-03T10:44:34 IST" name="setup" finished-at="2023-07-03T10:44:57 IST" duration-ms="23283" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_GiftCardTestClass@5ab956d7]" started-at="2023-07-13T10:23:49 IST" name="setup" finished-at="2023-07-13T10:24:01 IST" duration-ms="11589" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,19 +83,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_gift_card_page()[pri:6, instance:testCases.TC_002_GiftCardTestClass@5ab956d7]" started-at="2023-07-03T10:44:57 IST" name="test_gift_card_page" finished-at="2023-07-03T10:45:09 IST" duration-ms="11460" status="PASS">
+        <test-method signature="test_gift_card_page()[pri:6, instance:testCases.TC_002_GiftCardTestClass@5ab956d7]" started-at="2023-07-13T10:24:01 IST" name="test_gift_card_page" finished-at="2023-07-13T10:24:07 IST" duration-ms="6119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_gift_card_page -->
-        <test-method signature="test_remove_category()[pri:7, instance:testCases.TC_002_GiftCardTestClass@5ab956d7]" started-at="2023-07-03T10:45:09 IST" name="test_remove_category" finished-at="2023-07-03T10:45:09 IST" duration-ms="358" status="PASS">
+        <test-method signature="test_remove_category()[pri:7, instance:testCases.TC_002_GiftCardTestClass@5ab956d7]" started-at="2023-07-13T10:24:07 IST" name="test_remove_category" finished-at="2023-07-13T10:24:07 IST" duration-ms="288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_remove_category -->
-        <test-method signature="test_wedding_gift_card()[pri:8, instance:testCases.TC_002_GiftCardTestClass@5ab956d7]" started-at="2023-07-03T10:45:09 IST" name="test_wedding_gift_card" finished-at="2023-07-03T10:45:16 IST" duration-ms="7165" status="PASS">
+        <test-method signature="test_select_gift_card()[pri:8, instance:testCases.TC_002_GiftCardTestClass@5ab956d7]" started-at="2023-07-13T10:24:07 IST" name="test_select_gift_card" finished-at="2023-07-13T10:24:12 IST" duration-ms="5507" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_wedding_gift_card -->
-        <test-method signature="test_give_invalid_email()[pri:9, instance:testCases.TC_002_GiftCardTestClass@5ab956d7]" started-at="2023-07-03T10:45:16 IST" name="test_give_invalid_email" finished-at="2023-07-03T10:45:22 IST" duration-ms="5191" status="FAIL">
+        </test-method> <!-- test_select_gift_card -->
+        <test-method signature="test_invalid_email()[pri:9, instance:testCases.TC_002_GiftCardTestClass@5ab956d7]" started-at="2023-07-13T10:24:12 IST" name="test_invalid_email" finished-at="2023-07-13T10:24:18 IST" duration-ms="5743" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Please enter a valid Email id. expected [true] but found [false]]]>
@@ -105,7 +105,7 @@
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
-at testCases.TC_002_GiftCardTestClass.test_give_invalid_email(TC_002_GiftCardTestClass.java:85)
+at testCases.TC_002_GiftCardTestClass.test_invalid_email(TC_002_GiftCardTestClass.java:104)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -139,8 +139,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_give_invalid_email -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_GiftCardTestClass@5ab956d7]" started-at="2023-07-03T10:45:22 IST" name="tearDown" finished-at="2023-07-03T10:45:27 IST" duration-ms="4951" status="PASS">
+        </test-method> <!-- test_invalid_email -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_GiftCardTestClass@5ab956d7]" started-at="2023-07-13T10:24:19 IST" name="tearDown" finished-at="2023-07-13T10:24:20 IST" duration-ms="1367" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

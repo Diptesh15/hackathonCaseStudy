@@ -9,9 +9,9 @@
     <classes>
       <class name="testCases.TC_002_GiftCardTestClass">
         <methods>
+          <include name="test_invalid_email"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="test_give_invalid_email"/>
         </methods>
       </class> <!-- testCases.TC_002_GiftCardTestClass -->
     </classes>
