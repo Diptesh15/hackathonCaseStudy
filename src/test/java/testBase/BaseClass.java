@@ -107,11 +107,11 @@ public class BaseClass {
 	
 	public String captureScreen(String tname) throws IOException {
 
-		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 				
 		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
 		File source = takesScreenshot.getScreenshotAs(OutputType.FILE);
-		String destination = System.getProperty("user.dir") + "\\screenshots\\" + tname + "_" + timeStamp + ".png";
+		String destination = System.getProperty("user.dir") + "\\screenshotsTestng\\" + tname + "_" + timeStamp + ".png";
 
 		try {
 			FileUtils.copyFile(source, new File(destination));

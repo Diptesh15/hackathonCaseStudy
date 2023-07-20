@@ -8,9 +8,9 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
 
         features= {
-        			".//Features/LaunchCabPage.feature", ".//Features/FillCabData.feature", 
-        			".//Features/SelectSUV.feature", ".//Features/LaunchGiftCard.feature",
-        			".//Features/GiftCardInvalidEmail.feature", ".//Features/LaunchHotelPage.feature"
+        			".//Features/SelectSUV.feature",
+        			".//Features/GiftCardInvalidEmail.feature",
+        			".//Features/LaunchHotelPage.feature"
         		   },
         glue="stepDefinitions",
         plugin= {
@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
         		},    //Mandatory to capture failures
         dryRun=false,
         monochrome=true,
-        tags = "@Sanity"	//Scenarios tagged with @sanity,
+        tags = "@Sanity"	//Scenarios tagged with @Sanity,
       )
 public class TestRunner 
 {

@@ -2,27 +2,27 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-13T13:26:44 IST" name="HackathonSuite" finished-at="2023-07-13T13:29:05 IST" duration-ms="141182">
+  <suite started-at="2023-07-17T10:30:29 IST" name="HackathonSuite" finished-at="2023-07-17T10:32:21 IST" duration-ms="111412">
     <groups>
       <group name="Regression">
-        <method signature="TC_001_CabPageTestClass.test_redirect_to_cabs()[pri:1, instance:testCases.TC_001_CabPageTestClass@34a3d150]" name="test_redirect_to_cabs" class="testCases.TC_001_CabPageTestClass"/>
-        <method signature="TC_001_CabPageTestClass.test_cab_data_fill()[pri:2, instance:testCases.TC_001_CabPageTestClass@34a3d150]" name="test_cab_data_fill" class="testCases.TC_001_CabPageTestClass"/>
-        <method signature="TC_001_CabPageTestClass.test_car_type_suv()[pri:3, instance:testCases.TC_001_CabPageTestClass@34a3d150]" name="test_car_type_suv" class="testCases.TC_001_CabPageTestClass"/>
-        <method signature="TC_003_HotelPageTestClass.test_hotel_page_functionality()[pri:4, instance:testCases.TC_003_HotelPageTestClass@4c583ecf]" name="test_hotel_page_functionality" class="testCases.TC_003_HotelPageTestClass"/>
-        <method signature="TC_002_GiftCardTestClass.test_gift_card_page()[pri:6, instance:testCases.TC_002_GiftCardTestClass@368f2016]" name="test_gift_card_page" class="testCases.TC_002_GiftCardTestClass"/>
-        <method signature="TC_002_GiftCardTestClass.test_remove_category()[pri:7, instance:testCases.TC_002_GiftCardTestClass@368f2016]" name="test_remove_category" class="testCases.TC_002_GiftCardTestClass"/>
-        <method signature="TC_002_GiftCardTestClass.test_select_gift_card()[pri:8, instance:testCases.TC_002_GiftCardTestClass@368f2016]" name="test_select_gift_card" class="testCases.TC_002_GiftCardTestClass"/>
-        <method signature="TC_002_GiftCardTestClass.test_invalid_email()[pri:9, instance:testCases.TC_002_GiftCardTestClass@368f2016]" name="test_invalid_email" class="testCases.TC_002_GiftCardTestClass"/>
+        <method signature="TC_001_CabPageTestClass.test_redirect_to_cabs()[pri:1, instance:testCases.TC_001_CabPageTestClass@1349883]" name="test_redirect_to_cabs" class="testCases.TC_001_CabPageTestClass"/>
+        <method signature="TC_001_CabPageTestClass.test_cab_data_fill()[pri:2, instance:testCases.TC_001_CabPageTestClass@1349883]" name="test_cab_data_fill" class="testCases.TC_001_CabPageTestClass"/>
+        <method signature="TC_001_CabPageTestClass.test_car_type_suv()[pri:3, instance:testCases.TC_001_CabPageTestClass@1349883]" name="test_car_type_suv" class="testCases.TC_001_CabPageTestClass"/>
+        <method signature="TC_003_HotelPageTestClass.test_hotel_page_functionality()[pri:4, instance:testCases.TC_003_HotelPageTestClass@5f049ea1]" name="test_hotel_page_functionality" class="testCases.TC_003_HotelPageTestClass"/>
+        <method signature="TC_002_GiftCardTestClass.test_gift_card_page()[pri:6, instance:testCases.TC_002_GiftCardTestClass@3f191845]" name="test_gift_card_page" class="testCases.TC_002_GiftCardTestClass"/>
+        <method signature="TC_002_GiftCardTestClass.test_remove_category()[pri:7, instance:testCases.TC_002_GiftCardTestClass@3f191845]" name="test_remove_category" class="testCases.TC_002_GiftCardTestClass"/>
+        <method signature="TC_002_GiftCardTestClass.test_select_gift_card()[pri:8, instance:testCases.TC_002_GiftCardTestClass@3f191845]" name="test_select_gift_card" class="testCases.TC_002_GiftCardTestClass"/>
+        <method signature="TC_002_GiftCardTestClass.test_invalid_email()[pri:9, instance:testCases.TC_002_GiftCardTestClass@3f191845]" name="test_invalid_email" class="testCases.TC_002_GiftCardTestClass"/>
       </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="TC_001_CabPageTestClass.test_redirect_to_cabs()[pri:1, instance:testCases.TC_001_CabPageTestClass@34a3d150]" name="test_redirect_to_cabs" class="testCases.TC_001_CabPageTestClass"/>
-        <method signature="TC_003_HotelPageTestClass.test_hotel_page_functionality()[pri:4, instance:testCases.TC_003_HotelPageTestClass@4c583ecf]" name="test_hotel_page_functionality" class="testCases.TC_003_HotelPageTestClass"/>
-        <method signature="TC_002_GiftCardTestClass.test_gift_card_page()[pri:6, instance:testCases.TC_002_GiftCardTestClass@368f2016]" name="test_gift_card_page" class="testCases.TC_002_GiftCardTestClass"/>
+        <method signature="TC_001_CabPageTestClass.test_redirect_to_cabs()[pri:1, instance:testCases.TC_001_CabPageTestClass@1349883]" name="test_redirect_to_cabs" class="testCases.TC_001_CabPageTestClass"/>
+        <method signature="TC_003_HotelPageTestClass.test_hotel_page_functionality()[pri:4, instance:testCases.TC_003_HotelPageTestClass@5f049ea1]" name="test_hotel_page_functionality" class="testCases.TC_003_HotelPageTestClass"/>
+        <method signature="TC_002_GiftCardTestClass.test_gift_card_page()[pri:6, instance:testCases.TC_002_GiftCardTestClass@3f191845]" name="test_gift_card_page" class="testCases.TC_002_GiftCardTestClass"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-07-13T13:26:44 IST" name="HackathonTest" finished-at="2023-07-13T13:29:05 IST" duration-ms="141182">
+    <test started-at="2023-07-17T10:30:29 IST" name="HackathonTest" finished-at="2023-07-17T10:32:21 IST" duration-ms="111412">
       <class name="testCases.TC_001_CabPageTestClass">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_CabPageTestClass@34a3d150]" started-at="2023-07-13T13:26:45 IST" name="setup" finished-at="2023-07-13T13:27:14 IST" duration-ms="29152" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_CabPageTestClass@1349883]" started-at="2023-07-17T10:30:30 IST" name="setup" finished-at="2023-07-17T10:30:49 IST" duration-ms="18633" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,25 +33,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_redirect_to_cabs()[pri:1, instance:testCases.TC_001_CabPageTestClass@34a3d150]" started-at="2023-07-13T13:27:14 IST" name="test_redirect_to_cabs" finished-at="2023-07-13T13:27:22 IST" duration-ms="7676" status="PASS">
+        <test-method signature="test_redirect_to_cabs()[pri:1, instance:testCases.TC_001_CabPageTestClass@1349883]" started-at="2023-07-17T10:30:49 IST" name="test_redirect_to_cabs" finished-at="2023-07-17T10:30:57 IST" duration-ms="7779" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_redirect_to_cabs -->
-        <test-method signature="test_cab_data_fill()[pri:2, instance:testCases.TC_001_CabPageTestClass@34a3d150]" started-at="2023-07-13T13:27:22 IST" name="test_cab_data_fill" finished-at="2023-07-13T13:27:55 IST" duration-ms="33163" status="PASS">
+        <test-method signature="test_cab_data_fill()[pri:2, instance:testCases.TC_001_CabPageTestClass@1349883]" started-at="2023-07-17T10:30:57 IST" name="test_cab_data_fill" finished-at="2023-07-17T10:31:13 IST" duration-ms="16468" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_cab_data_fill -->
-        <test-method signature="test_car_type_suv()[pri:3, instance:testCases.TC_001_CabPageTestClass@34a3d150]" started-at="2023-07-13T13:27:55 IST" name="test_car_type_suv" finished-at="2023-07-13T13:28:03 IST" duration-ms="7785" status="PASS">
+        <test-method signature="test_car_type_suv()[pri:3, instance:testCases.TC_001_CabPageTestClass@1349883]" started-at="2023-07-17T10:31:13 IST" name="test_car_type_suv" finished-at="2023-07-17T10:31:22 IST" duration-ms="9246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_car_type_suv -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_CabPageTestClass@34a3d150]" started-at="2023-07-13T13:28:03 IST" name="tearDown" finished-at="2023-07-13T13:28:05 IST" duration-ms="2012" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_CabPageTestClass@1349883]" started-at="2023-07-17T10:31:22 IST" name="tearDown" finished-at="2023-07-17T10:31:24 IST" duration-ms="1769" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_001_CabPageTestClass -->
       <class name="testCases.TC_003_HotelPageTestClass">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_003_HotelPageTestClass@4c583ecf]" started-at="2023-07-13T13:28:39 IST" name="setup" finished-at="2023-07-13T13:28:52 IST" duration-ms="13625" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_003_HotelPageTestClass@5f049ea1]" started-at="2023-07-17T10:31:56 IST" name="setup" finished-at="2023-07-17T10:32:07 IST" duration-ms="10554" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,17 +62,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_hotel_page_functionality()[pri:4, instance:testCases.TC_003_HotelPageTestClass@4c583ecf]" started-at="2023-07-13T13:28:52 IST" name="test_hotel_page_functionality" finished-at="2023-07-13T13:29:03 IST" duration-ms="11106" status="PASS">
+        <test-method signature="test_hotel_page_functionality()[pri:4, instance:testCases.TC_003_HotelPageTestClass@5f049ea1]" started-at="2023-07-17T10:32:07 IST" name="test_hotel_page_functionality" finished-at="2023-07-17T10:32:19 IST" duration-ms="11994" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_hotel_page_functionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_HotelPageTestClass@4c583ecf]" started-at="2023-07-13T13:29:03 IST" name="tearDown" finished-at="2023-07-13T13:29:05 IST" duration-ms="1653" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_HotelPageTestClass@5f049ea1]" started-at="2023-07-17T10:32:19 IST" name="tearDown" finished-at="2023-07-17T10:32:21 IST" duration-ms="1813" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_003_HotelPageTestClass -->
       <class name="testCases.TC_002_GiftCardTestClass">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_GiftCardTestClass@368f2016]" started-at="2023-07-13T13:28:05 IST" name="setup" finished-at="2023-07-13T13:28:20 IST" duration-ms="15082" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_GiftCardTestClass@3f191845]" started-at="2023-07-17T10:31:24 IST" name="setup" finished-at="2023-07-17T10:31:36 IST" duration-ms="12204" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,23 +83,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_gift_card_page()[pri:6, instance:testCases.TC_002_GiftCardTestClass@368f2016]" started-at="2023-07-13T13:28:20 IST" name="test_gift_card_page" finished-at="2023-07-13T13:28:27 IST" duration-ms="6480" status="PASS">
+        <test-method signature="test_gift_card_page()[pri:6, instance:testCases.TC_002_GiftCardTestClass@3f191845]" started-at="2023-07-17T10:31:36 IST" name="test_gift_card_page" finished-at="2023-07-17T10:31:43 IST" duration-ms="6856" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_gift_card_page -->
-        <test-method signature="test_remove_category()[pri:7, instance:testCases.TC_002_GiftCardTestClass@368f2016]" started-at="2023-07-13T13:28:27 IST" name="test_remove_category" finished-at="2023-07-13T13:28:27 IST" duration-ms="369" status="PASS">
+        <test-method signature="test_remove_category()[pri:7, instance:testCases.TC_002_GiftCardTestClass@3f191845]" started-at="2023-07-17T10:31:43 IST" name="test_remove_category" finished-at="2023-07-17T10:31:44 IST" duration-ms="337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_remove_category -->
-        <test-method signature="test_select_gift_card()[pri:8, instance:testCases.TC_002_GiftCardTestClass@368f2016]" started-at="2023-07-13T13:28:27 IST" name="test_select_gift_card" finished-at="2023-07-13T13:28:32 IST" duration-ms="4690" status="PASS">
+        <test-method signature="test_select_gift_card()[pri:8, instance:testCases.TC_002_GiftCardTestClass@3f191845]" started-at="2023-07-17T10:31:44 IST" name="test_select_gift_card" finished-at="2023-07-17T10:31:49 IST" duration-ms="5606" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_select_gift_card -->
-        <test-method signature="test_invalid_email()[pri:9, instance:testCases.TC_002_GiftCardTestClass@368f2016]" started-at="2023-07-13T13:28:32 IST" name="test_invalid_email" finished-at="2023-07-13T13:28:37 IST" duration-ms="5621" status="PASS">
+        <test-method signature="test_invalid_email()[pri:9, instance:testCases.TC_002_GiftCardTestClass@3f191845]" started-at="2023-07-17T10:31:49 IST" name="test_invalid_email" finished-at="2023-07-17T10:31:55 IST" duration-ms="5801" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_invalid_email -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_GiftCardTestClass@368f2016]" started-at="2023-07-13T13:28:37 IST" name="tearDown" finished-at="2023-07-13T13:28:39 IST" duration-ms="1442" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_GiftCardTestClass@3f191845]" started-at="2023-07-17T10:31:55 IST" name="tearDown" finished-at="2023-07-17T10:31:56 IST" duration-ms="1296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

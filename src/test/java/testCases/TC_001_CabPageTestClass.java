@@ -78,7 +78,7 @@ public class TC_001_CabPageTestClass extends BaseClass {
 			logger.info("test_car_type_suv successful...");
 			logger.info("Printing the lowest fare in console...");
 			String pr = cb.getLowestPrice().get(0).getText();
-			System.out.println("Lowest fare is: " + pr);
+			logger.info("Lowest fare is: Rs. " + pr);
 			Thread.sleep(3000);
 		}
 		catch(Exception e) {
