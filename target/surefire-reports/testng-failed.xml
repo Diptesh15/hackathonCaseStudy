@@ -7,13 +7,32 @@
   </listeners>
   <test thread-count="5" name="HackathonTest(failed)" verbose="0">
     <classes>
+      <class name="testCases.TC_001_CabPageTestClass">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test_car_type_suv"/>
+          <include name="setup"/>
+          <include name="test_cab_data_fill"/>
+          <include name="test_redirect_to_cabs"/>
+        </methods>
+      </class> <!-- testCases.TC_001_CabPageTestClass -->
       <class name="testCases.TC_002_GiftCardTestClass">
         <methods>
           <include name="test_invalid_email"/>
+          <include name="test_remove_category"/>
           <include name="tearDown"/>
+          <include name="test_select_gift_card"/>
           <include name="setup"/>
+          <include name="test_gift_card_page"/>
         </methods>
       </class> <!-- testCases.TC_002_GiftCardTestClass -->
+      <class name="testCases.TC_003_HotelPageTestClass">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test_hotel_page_functionality"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_003_HotelPageTestClass -->
     </classes>
   </test> <!-- HackathonTest(failed) -->
 </suite> <!-- Failed suite [HackathonSuite] -->

@@ -24,7 +24,7 @@ public class TC_002_GiftCardTestClass extends BaseClass {
 		logger.info("Starting test_gift_card_page...");
 		try {
 			GiftCard gc = new GiftCard(driver);
-			Thread.sleep(3000);
+//			Thread.sleep(3000);
 			logger.info("Clicking on the Gift Card option present on the home page...");
 			gc.launchGiftCard();
 			logger.info("Validiting the test by checking the title of web page...");

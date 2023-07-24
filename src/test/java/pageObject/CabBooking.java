@@ -16,6 +16,7 @@ public class CabBooking extends BasePage {
 		super(driver);
 	}
 	
+	
 //###########################################################################################################
 	
 	// Setting path for reading Excel File
@@ -71,46 +72,59 @@ public class CabBooking extends BasePage {
 	// Action Methods for the WebElement Identified
 	
 	public void launchCabPage() {
-		
+		setElementBorder(website);
 		website.click();
 	}
 	
 //-----------------------------------------------------------------------------------------------------
 	
 	public void fillCabData() throws InterruptedException, IOException {
+		
+		setElementBorder(labelForCity);
 		labelForCity.click();
 		
 		String from = ExcelUtils.getCellData(file, "sheet1", 1, 1);
+		setElementBorder(searchFrom);
 		searchFrom.sendKeys(from);
 		Thread.sleep(3000);
+		setElementBorder(suggestion);
 		suggestion.click();
 		
 		driver.switchTo().activeElement();
 		
 		String to = ExcelUtils.getCellData(file, "sheet1", 1, 2);
+		setElementBorder(searchTo);
 		searchTo.sendKeys(to);
 		Thread.sleep(3000);
+		setElementBorder(suggestion);
 		suggestion.click();
 		
 		driver.switchTo().activeElement();
 		
+		setElementBorder(departure);
 		departure.click();
 		
 		driver.switchTo().activeElement();
 		
+		setElementBorder(pickupTimeHr);
 		pickupTimeHr.click();
+		setElementBorder(pickupTimeMin);
 		pickupTimeMin.click();
+		setElementBorder(pickupTimeApply);
 		pickupTimeApply.click();
+		setElementBorder(searchButton);
 		searchButton.click();
 	}
 
 //--------------------------------------------------------------------------------------------------
 	
 	public WebElement getSuv() {
+		setElementBorder(checkSuv);
 		return checkSuv;
 	}
 //-----------------------------------------------------------------------------------------------------
 	public WebElement getAppliedFilter() {
+		setElementBorder(appliedFilter);
 		return appliedFilter;
 	}
 

@@ -33,18 +33,21 @@ public class HotelFunctionality extends BasePage {
 	// Action Methods on the WebElement
 	
 	public void launchHotelWebsite() {
+		setElementBorder(website);
 		website.click();
 	}
 	
 //------------------------------------------------------------------------------------------------------
 	
 	public WebElement getGuestBox() {
+		setElementBorder(guestBox);
 		return guestBox;
 	}
 	
 //-------------------------------------------------------------------------------------------------------
 	
 	public WebElement getAdultsField() {
+		setElementBorder(adultsField);
 		return adultsField;
 	}
 	
@@ -56,6 +59,7 @@ public class HotelFunctionality extends BasePage {
 		getAdultsField().click();
 		Thread.sleep(2000);
 		for(WebElement e : adults) {
+			setElementBorder(e);
 			System.out.println("You can select " + e.getText() + " Adults ");
 		}
 	}

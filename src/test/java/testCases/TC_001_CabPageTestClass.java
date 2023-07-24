@@ -23,7 +23,7 @@ public class TC_001_CabPageTestClass extends BaseClass {
 		try {
 			logger.info("Creating object for class CabBooking.java present in pageObject package...");
 			CabBooking cb = new CabBooking(driver);
-			Thread.sleep(3000);
+//			Thread.sleep(3000);
 			logger.info("Clicking on the Cab page present in website...");
 			cb.launchCabPage();
 			Thread.sleep(3000);
@@ -79,7 +79,6 @@ public class TC_001_CabPageTestClass extends BaseClass {
 			logger.info("Printing the lowest fare in console...");
 			String pr = cb.getLowestPrice().get(0).getText();
 			logger.info("Lowest fare is: Rs. " + pr);
-			Thread.sleep(3000);
 		}
 		catch(Exception e) {
 			e.printStackTrace();
